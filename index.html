@@ -1,0 +1,150 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Introducción a la CPU</title> 
+    <style> 
+
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background-image: url("C:\Users\diego.dehpin\Desktop\pagina web\fondo.jpg"); 
+            background-size: cover; 
+            background-position: center; 
+            background-attachment: fixed; 
+            color: #333; 
+            background-color: #8D7BBA;
+        } 
+
+        .container { 
+            max-width: 1100px; 
+            margin: auto; 
+            padding: 20px; 
+            background-image: url("C:\Users\diego.dehpin\Desktop\pagina web\fondo.jpg"); 
+            border-radius: 10px 10px 0px 0px; 
+            box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1); 
+			background-color: #CDC5DF;
+        } 
+
+        h1, h2 { 
+            text-align: center;
+            color: black;
+            font-family: Algerian;			
+        } 
+
+        p { 
+            line-height: 1.6; 
+            text-align: justify; 
+			color: black;
+        } 
+
+        table { 
+            border-collapse: collapse; 
+            width: 100%; 
+            margin: 20px auto;			
+        } 
+
+        th, td { 
+            border: 1px solid #ddd; 
+            padding: 8px; 
+            text-align: left; 
+        } 
+
+        th { 
+            background-color: #A68BBC; 
+        } 
+
+        img { 
+            display: block; 
+            margin: 20px auto; 
+            max-width: 80%; 
+            height: auto; 
+        } 
+
+        .section { 
+            margin-top: 40px; 
+            padding-top: 20px; 
+            border-top: 1px solid #ddd; 
+        } 
+		.form {
+		    margin-top: 40px; 
+            padding-top: 20px; 
+            border-top: 1px solid #ddd; 
+			text-align: center;
+		}
+    </style> 
+</head> 
+<body> 
+    <div class="container"> 
+        <h1>Central Processing Unit (CPU)</h1> 
+        <p>La Unidad Central de Procesamiento (CPU) es el componente más importante de un ordenador. Es responsable de realizar cálculos, procesar datos y ejecutar instrucciones de programas. La CPU coordina y controla todas las operaciones del sistema informático, actuando como el cerebro de la máquina.</p> 
+        <p>Las CPUs modernas han evolucionado enormemente en términos de rendimiento y capacidad de procesamiento. Desde los primeros modelos con una velocidad de reloj de unos pocos megahercios hasta los últimos procesadores con múltiples núcleos y velocidades de reloj que superan los gigahercios, la CPU sigue siendo el corazón de la computación.</p> 
+
+        <div class="section"> 
+            <h2 id="funcionamiento">Funcionamiento de la CPU</h2> 
+            <p>La CPU ejecuta instrucciones almacenadas en la memoria. Procesa datos mediante la aritmética y la lógica. Está compuesta principalmente por la <strong>unidad de control</strong> y la <strong>unidad aritmético-lógica</strong>.</p> 
+            <p>La unidad de control supervisa y coordina todas las operaciones del procesador. Controla el flujo de datos entre la CPU y otros dispositivos, interpreta las instrucciones del programa y dirige la ejecución de las operaciones.</p> 
+            <p>La unidad aritmético-lógica lleva a cabo las operaciones aritméticas y lógicas, como sumas, restas, multiplicaciones, divisiones y comparaciones. Estas operaciones forman la base del procesamiento de datos y son realizadas por la CPU de manera secuencial y en paralelo.</p> 
+        </div> 
+
+        <div class="section"> 
+            <h2 id="ejemplo">Ejemplo de CPU: Intel Core i7-10700K</h2> 
+            <img src="C:\Users\diego.dehpin\Desktop\pagina web\cpu.jpg" alt="CPU Intel Core i7-10700K"> 
+            <table> 
+                <tr> 
+                    <th>Especificación</th> 
+                    <th>Descripción</th> 
+                </tr> 
+                <tr> 
+                    <td>Velocidad de reloj</td> 
+                    <td>3.8 GHz base, hasta 5.1 GHz en modo turbo</td> 
+                </tr> 
+                <tr> 
+                    <td>Núcleos</td> 
+                    <td>8 núcleos, 16 hilos</td> 
+                </tr> 
+                <tr>
+                    <td>Caché</td>
+                    <td>16 MB Intel Smart Cache</td>
+                </tr> 
+                <tr> 
+                    <td>Tecnología de proceso</td> 
+                    <td>14 nm</td> 
+                </tr> 
+                <tr> 
+                    <td>Consumo energético</td> 
+                    <td>125 W</td> 
+                </tr> 
+            </table> 
+        </div> 
+
+        <div class="section"> 
+            <h2 id="componentes">Componentes de la CPU</h2> 
+            <p>Además de la unidad de control y la unidad aritmético-lógica, la CPU incluye:</p> 
+            <ul> 
+                <li><strong>Memoria caché:</strong> Almacena datos y órdenes frecuentemente utilizados para acceder a ellos más rápidamente.</li> 
+                <li><strong>Bus:</strong> Transmite datos entre la CPU y otros componentes del sistema, como la memoria RAM y los dispositivos de entrada/salida.</li> 
+                <li><strong>Registros:</strong> Almacenan datos temporales y direcciones de memoria para las operaciones de la CPU.</li> 
+            </ul> 
+        </div> 
+		
+        <div class="section"> 
+            <h2 id="conclusion">Conclusión</h2> 
+            <p>La CPU es un componente crucial en cualquier sistema informático. Su capacidad de procesamiento y velocidad determinan en gran medida el rendimiento general de una computadora. Por lo que si queremos un buen rendimiento general del ordenador, deberemos invertir en un buen procesador.</p> 
+        </div> 
+     
+	<form class="form">
+	  <h2>Califícanos</h2>
+		<label>Nota de la información de la página:</label>
+		<input type="number" id="nota" name="nota" min="1" max="10"><br>
+		<section class="comentarios"><br>
+		<label for="comentarios">Déjanos tu opinión sobre la página:</label><br>
+		<textarea class="comentarios" name="comentarios" rows="5" cols="50"></textarea>
+		</section><br>
+		<button type="reset" id="Send" name="Send">Send</button>
+    </form>
+	</div>
+</body> 
+</html> 
